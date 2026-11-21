@@ -46,6 +46,8 @@ information from the effect of graph density alone.
   out-of-fold predictions. Usage: `python recording_length_analysis.py <results_dir> [model]`.
 - `make_sid_file_map.py` -- writes `sid_file_map.csv`, which links each
   participant index (`sid`) in the result files to its `.mat` file and label.
+- `deep_permutation_results.csv` -- fold-level accuracies of the GraphODE run used for the
+  deep-model permutation test (repeat 0, 10 folds) and the 50 null accuracies of that test.
 - `all_oof_predictions.csv`, `all_fold_results.csv`, `final_table.csv` -- saved
   outputs of the main subject-level comparison (out-of-fold predictions,
   fold-level results and summary table). The sensitivity runs (ICA artifact
