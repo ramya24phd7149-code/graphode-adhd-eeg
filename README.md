@@ -53,6 +53,10 @@ information from the effect of graph density alone.
   fold-level results and summary table). The sensitivity runs (ICA artifact
   correction, Fp1/Fp2 exclusion, hyperparameter sweep, random-graph control)
   are regenerated with the environment variables listed below.
+  In `final_table.csv`, `p_vs_GraphODE_fdr` is the Benjamini-Hochberg adjustment over all
+  rows of that file. In the manuscript, the adjustment is applied within each family of
+  comparisons (Table 4: the nine main comparisons; Table 5: the four control models).
+  The control models (FullyConnected, RandomGraph, CNN-Only, CNN-LSTM) were run on repeat 0 only.
 
 ## Environment
 
