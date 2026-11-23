@@ -128,7 +128,7 @@ the classical baselines are exactly reproducible.
 
 If you use this code, please cite:
 
-Ramya, S., & Bommareddy, L. (2026). Graph Neural Ordinary Differential
+Swarna Ramya and Bommareddy Lokesh (2026). Graph Neural Ordinary Differential
 Equations for Electroencephalography-Based Attention-Deficit/Hyperactivity
 Disorder Classification: Subject-Level Evaluation with Density-Matched
 Controls. *Frontiers in Psychiatry*. (manuscript in review)
